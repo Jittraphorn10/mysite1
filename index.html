@@ -1,13 +1,65 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ข้อมูลส่วนตัวนักศึกษา</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f0f0f0;
+      padding: 40px;
+    }
+
+    .profile-card {
+      background-color: #fff;
+      max-width: 500px;
+      margin: auto;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #3498db;
+      margin-bottom: 20px;
+    }
+
+    .profile-card h2 {
+      margin: 10px 0 5px;
+      color: #2c3e50;
+    }
+
+    .profile-card p {
+      margin: 5px 0;
+      color: #555;
+      font-size: 16px;
+    }
+
+    .profile-card .email {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <!-- 🔁 เปลี่ยนลิงก์ภาพตรง src ได้ -->
+    <img src="https://i.pravatar.cc/300?img=12" alt="My Profile Picture">
+
+    <h2>จิตราภรณ์ ขินภักดี</h2>
+    <p><strong>รหัสนักศึกษา:</strong> 6760259109</p>
+    <p><strong>ชั้นปี:</strong> ปี 2</p>
+    <p><strong>สาขา:</strong> เทคโนโลยีสารสนเทศ</p>
+    <p class="email">sb6760259109@lru.ac.th</p>
+  </div>
+
+</body>
 </html>
